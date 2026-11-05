@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veille stages</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Veille stages<small id="lastRefresh"></small></div>
+    <nav class="tabs">
+      <button class="tab active" data-tab="offres">Offres <span id="countOffres"></span></button>
+      <button class="tab" data-tab="suivi">Candidatures <span id="countSuivi"></span></button>
+      <button class="tab" data-tab="sources">Sources <span id="countSources"></span></button>
+    </nav>
+    <div class="spacer"></div>
+    <span class="progress" id="progress"></span>
+    <button class="btn primary" id="refreshBtn">Rafraîchir</button>
+  </header>
+
+  <main>
+    <section id="tab-offres">
+      <div class="filters">
+        <input type="search" id="q" placeholder="Rechercher (entreprise, titre, ville)">
+        <span class="row" id="catButtons">
+          <button class="btn small on" data-cat="ML">ML</button>
+          <button class="btn small on" data-cat="DL">DL</button>
+          <button class="btn small on" data-cat="Stats">Stats</button>
+        </span>
+        <select id="zone">
+          <option value="selection">Europe + monde sélectionné</option>
+          <option value="europe">Europe</option>
+          <option value="france">France</option>
+          <option value="tout">Partout</option>
+        </select>
+        <select id="status">
+          <option value="a_voir">À voir</option>
+          <option value="interesse">★ Intéressé</option>
+          <option value="postule">✓ Postulé</option>
+          <option value="ecarte">✕ Écarté</option>
+          <option value="tous">Tous</option>
+        </select>
+        <select id="tier">
+          <option value="all">Tout prestige</option>
+          <option value="S">Élite</option>
+          <option value="A">Très prestigieux et plus</option>
+          <option value="B">Solide et plus</option>
+        </select>
+        <select id="sort">
+          <option value="prestige">Entreprises : prestige</option>
+          <option value="count">Entreprises : nombre d'offres</option>
+          <option value="recent">Entreprises : offres les plus récentes</option>
+          <option value="name">Entreprises : A → Z</option>
+        </select>
+        <label><input type="checkbox" id="newOnly"> Nouvelles (7 jours)</label>
+      </div>
+      <p class="count" id="count"></p>
+      <div id="companies"></div>
+    </section>
+
+    <section id="tab-suivi" hidden>
+      <div class="panel">
+        <h2>Ajouter une candidature</h2>
+        <div class="add-row">
+          <input id="newCompany" placeholder="Entreprise">
+          <input id="newTitle" placeholder="Intitulé du stage">
+          <input id="newUrl" placeholder="Lien de l'offre">
+          <input id="newDate" type="date">
+          <button class="btn primary" id="addAppBtn">Ajouter</button>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="table-wrap">
+          <table class="suivi">
+            <thead><tr><th>Entreprise / stage</th><th>Envoyée le</th><th>Étape</th><th>CV</th><th>Lettre</th><th>Notes</th><th></th></tr></thead>
+            <tbody id="appsBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="tab-sources" hidden>
+      <div class="panel">
+        <h2>Ajouter une source</h2>
+        <div class="add-row">
+          <input id="detectInput" placeholder="URL d'une page carrières ou nom d'entreprise">
+          <button class="btn primary" id="detectBtn">Détecter</button>
+        </div>
+        <div id="detectResult"></div>
+      </div>
+      <div class="panel">
+        <h2>Entreprises masquées</h2>
+        <div id="excludedList"></div>
+      </div>
+      <div class="panel">
+        <h2>Sources</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Active</th><th>Source</th><th>Type</th><th>Prestige</th><th>Dernière collecte</th><th>Offres</th><th></th></tr></thead>
+            <tbody id="sourcesBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

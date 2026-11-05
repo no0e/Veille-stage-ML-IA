@@ -1,0 +1,57 @@
+{
+  "nom": "Prénom Nom",
+  "ecoles": [
+    "ENSAI"
+  ],
+  "annee_diplome": 2027,
+  "langues": [
+    "fr",
+    "en"
+  ],
+  "competences": {
+    "Python": 3,
+    "PyTorch": 3,
+    "TensorFlow": 2,
+    "Scikit-learn": 2,
+    "Hugging Face": 2,
+    "Pandas / NumPy": 1,
+    "Deep learning": 3,
+    "Machine learning": 3,
+    "NLP": 3,
+    "Computer vision": 3,
+    "Recommender systems": 3,
+    "Time series": 3,
+    "Statistics": 3,
+    "Probabilistic modeling": 2,
+    "Causal inference": 2,
+    "Reinforcement learning": 2,
+    "A/B testing": 2,
+    "Optimization": 1,
+    "Transformers": 2,
+    "Generative AI / LLM": 2,
+    "Multimodal": 2,
+    "MLOps": 2,
+    "SQL": 2,
+    "Git": 1,
+    "Linux": 1,
+    "Java": 1,
+    "FastAPI": 1,
+    "PostgreSQL": 1,
+    "AWS": 1,
+    "GCP": 1,
+    "Distributed systems": 1,
+    "Data visualization": 1,
+    "SAS": 1,
+    "R": 1
+  },
+  "reglages": {
+    "rafraichissement_auto_heures": 12,
+    "exclure_finance_de_marche": true,
+    "monde_chance_min_prestige": 30,
+    "monde_chance_min_groupe_fr": 30,
+    "nouveau_jours": 7,
+    "entreprises_exclues": [],
+    "debut_au_plus_tot": "2027-03",
+    "masquer_inaccessibles": true
+  }
+}

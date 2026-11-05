@@ -1,0 +1,1961 @@
+{
+  "version": "2026-10-20-career-ops",
+  "sources": [
+    {
+      "name": "Anthropic",
+      "type": "greenhouse",
+      "params": {
+        "token": "anthropic"
+      },
+      "tier": "S",
+      "high_pay": true
+    },
+    {
+      "name": "OpenAI",
+      "type": "ashby",
+      "params": {
+        "token": "openai"
+      },
+      "tier": "S",
+      "high_pay": true
+    },
+    {
+      "name": "Mistral AI",
+      "type": "ashby",
+      "params": {
+        "token": "mistral.ai"
+      },
+      "tier": "S",
+      "french_intl": true,
+      "high_pay": true,
+      "startup": true
+    },
+    {
+      "name": "Isomorphic Labs",
+      "type": "greenhouse",
+      "params": {
+        "token": "isomorphiclabs"
+      },
+      "tier": "S",
+      "high_pay": true
+    },
+    {
+      "name": "NVIDIA",
+      "type": "workday",
+      "params": {
+        "host": "nvidia.wd5.myworkdayjobs.com",
+        "tenant": "nvidia",
+        "site": "NVIDIAExternalCareerSite"
+      },
+      "tier": "S",
+      "high_pay": true
+    },
+    {
+      "name": "Amazon",
+      "type": "amazon",
+      "params": {},
+      "tier": "A"
+    },
+    {
+      "name": "Cohere",
+      "type": "ashby",
+      "params": {
+        "token": "cohere"
+      },
+      "tier": "A",
+      "startup": true
+    },
+    {
+      "name": "Perplexity",
+      "type": "ashby",
+      "params": {
+        "token": "perplexity"
+      },
+      "tier": "A",
+      "startup": true
+    },
+    {
+      "name": "Hugging Face",
+      "type": "workable",
+      "params": {
+        "account": "huggingface"
+      },
+      "tier": "A",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Helsing",
+      "type": "greenhouse",
+      "params": {
+        "token": "helsing"
+      },
+      "tier": "A",
+      "startup": true
+    },
+    {
+      "name": "ElevenLabs",
+      "type": "ashby",
+      "params": {
+        "token": "elevenlabs"
+      },
+      "tier": "A",
+      "startup": true
+    },
+    {
+      "name": "Black Forest Labs",
+      "type": "ashby",
+      "params": {
+        "token": "black-forest-labs"
+      },
+      "tier": "A",
+      "startup": true
+    },
+    {
+      "name": "DeepL",
+      "type": "ashby",
+      "params": {
+        "token": "deepl"
+      },
+      "tier": "A",
+      "startup": true
+    },
+    {
+      "name": "H Company",
+      "type": "ashby",
+      "params": {
+        "token": "hcompany"
+      },
+      "tier": "A",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Poolside",
+      "type": "ashby",
+      "params": {
+        "token": "poolside"
+      },
+      "tier": "A",
+      "startup": true
+    },
+    {
+      "name": "Wayve",
+      "type": "ashby",
+      "params": {
+        "token": "wayve"
+      },
+      "tier": "A",
+      "startup": true
+    },
+    {
+      "name": "Cursor (Anysphere)",
+      "type": "ashby",
+      "params": {
+        "token": "cursor"
+      },
+      "tier": "A",
+      "startup": true
+    },
+    {
+      "name": "Scale AI",
+      "type": "greenhouse",
+      "params": {
+        "token": "scaleai"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Datadog",
+      "type": "greenhouse",
+      "params": {
+        "token": "datadog"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Databricks",
+      "type": "greenhouse",
+      "params": {
+        "token": "databricks"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Stripe",
+      "type": "greenhouse",
+      "params": {
+        "token": "stripe"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Spotify",
+      "type": "lever",
+      "params": {
+        "token": "spotify"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Palantir",
+      "type": "lever",
+      "params": {
+        "token": "palantir"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Figma",
+      "type": "greenhouse",
+      "params": {
+        "token": "figma"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Adyen",
+      "type": "greenhouse",
+      "params": {
+        "token": "adyen"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Waymo",
+      "type": "greenhouse",
+      "params": {
+        "token": "waymo"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Airbnb",
+      "type": "greenhouse",
+      "params": {
+        "token": "airbnb"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Criteo",
+      "type": "workday",
+      "params": {
+        "host": "criteo.wd3.myworkdayjobs.com",
+        "tenant": "criteo",
+        "site": "Criteo_Career_Site"
+      },
+      "tier": "B",
+      "french_intl": true
+    },
+    {
+      "name": "Airbus",
+      "type": "workday",
+      "params": {
+        "host": "ag.wd3.myworkdayjobs.com",
+        "tenant": "ag",
+        "site": "Airbus"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40"
+    },
+    {
+      "name": "Thales",
+      "type": "workday",
+      "params": {
+        "host": "thales.wd3.myworkdayjobs.com",
+        "tenant": "thales",
+        "site": "Careers"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40"
+    },
+    {
+      "name": "Sanofi",
+      "type": "workday",
+      "params": {
+        "host": "sanofi.wd3.myworkdayjobs.com",
+        "tenant": "sanofi",
+        "site": "SanofiCareers"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40"
+    },
+    {
+      "name": "Philips",
+      "type": "workday",
+      "params": {
+        "host": "philips.wd3.myworkdayjobs.com",
+        "tenant": "philips",
+        "site": "jobs-and-careers"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Intel",
+      "type": "workday",
+      "params": {
+        "host": "intel.wd1.myworkdayjobs.com",
+        "tenant": "intel",
+        "site": "External"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Adobe",
+      "type": "workday",
+      "params": {
+        "host": "adobe.wd5.myworkdayjobs.com",
+        "tenant": "adobe",
+        "site": "external_experienced"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Salesforce",
+      "type": "workday",
+      "params": {
+        "host": "salesforce.wd12.myworkdayjobs.com",
+        "tenant": "salesforce",
+        "site": "External_Career_Site"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Samsung",
+      "type": "workday",
+      "params": {
+        "host": "sec.wd3.myworkdayjobs.com",
+        "tenant": "sec",
+        "site": "Samsung_Careers"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Novartis",
+      "type": "workday",
+      "params": {
+        "host": "novartis.wd3.myworkdayjobs.com",
+        "tenant": "novartis",
+        "site": "Novartis_Careers"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "AstraZeneca",
+      "type": "workday",
+      "params": {
+        "host": "astrazeneca.wd3.myworkdayjobs.com",
+        "tenant": "astrazeneca",
+        "site": "Careers"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Ubisoft",
+      "type": "smartrecruiters",
+      "params": {
+        "company": "Ubisoft2"
+      },
+      "tier": "B",
+      "french_intl": true
+    },
+    {
+      "name": "Bosch",
+      "type": "smartrecruiters",
+      "params": {
+        "company": "BoschGroup"
+      },
+      "tier": "B",
+      "enabled": false,
+      "note": "Désactivée : tu avais écarté l'industrie allemande"
+    },
+    {
+      "name": "Dataiku",
+      "type": "greenhouse",
+      "params": {
+        "token": "dataiku"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Doctolib",
+      "type": "greenhouse",
+      "params": {
+        "token": "doctolib"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Mirakl",
+      "type": "greenhouse",
+      "params": {
+        "token": "mirakl"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Shift Technology",
+      "type": "greenhouse",
+      "params": {
+        "token": "shifttechnology"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Photoroom",
+      "type": "ashby",
+      "params": {
+        "token": "photoroom"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Alan",
+      "type": "ashby",
+      "params": {
+        "token": "alan"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Owkin",
+      "type": "ashby",
+      "params": {
+        "token": "owkin"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Nabla",
+      "type": "ashby",
+      "params": {
+        "token": "nabla"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Dust",
+      "type": "ashby",
+      "params": {
+        "token": "dust"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Qonto",
+      "type": "lever",
+      "params": {
+        "token": "qonto"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Pigment",
+      "type": "lever",
+      "params": {
+        "token": "pigment"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Contentsquare",
+      "type": "lever",
+      "params": {
+        "token": "contentsquare"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Algolia",
+      "type": "greenhouse",
+      "params": {
+        "token": "algolia"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Synthesia",
+      "type": "ashby",
+      "params": {
+        "token": "synthesia"
+      },
+      "tier": "B",
+      "startup": true
+    },
+    {
+      "name": "LangChain",
+      "type": "ashby",
+      "params": {
+        "token": "langchain"
+      },
+      "tier": "B",
+      "startup": true
+    },
+    {
+      "name": "Lovable",
+      "type": "ashby",
+      "params": {
+        "token": "lovable"
+      },
+      "tier": "B",
+      "startup": true
+    },
+    {
+      "name": "Aleph Alpha",
+      "type": "ashby",
+      "params": {
+        "token": "alephalpha"
+      },
+      "tier": "B",
+      "startup": true
+    },
+    {
+      "name": "Celonis",
+      "type": "greenhouse",
+      "params": {
+        "token": "celonis"
+      },
+      "tier": "B",
+      "startup": true
+    },
+    {
+      "name": "Cloudflare",
+      "type": "greenhouse",
+      "params": {
+        "token": "cloudflare"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Elastic",
+      "type": "greenhouse",
+      "params": {
+        "token": "elastic"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "MongoDB",
+      "type": "greenhouse",
+      "params": {
+        "token": "mongodb"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "N26",
+      "type": "greenhouse",
+      "params": {
+        "token": "n26"
+      },
+      "tier": "B",
+      "startup": true
+    },
+    {
+      "name": "GetYourGuide",
+      "type": "greenhouse",
+      "params": {
+        "token": "getyourguide"
+      },
+      "tier": "B",
+      "startup": true
+    },
+    {
+      "name": "Graphcore",
+      "type": "greenhouse",
+      "params": {
+        "token": "graphcore"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Speechmatics",
+      "type": "greenhouse",
+      "params": {
+        "token": "speechmatics"
+      },
+      "tier": "B",
+      "startup": true
+    },
+    {
+      "name": "PolyAI",
+      "type": "greenhouse",
+      "params": {
+        "token": "polyai"
+      },
+      "tier": "B",
+      "startup": true
+    },
+    {
+      "name": "Zoox",
+      "type": "lever",
+      "params": {
+        "token": "zoox"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Ekimetrics",
+      "type": "lever",
+      "params": {
+        "token": "ekimetrics"
+      },
+      "tier": "C",
+      "french_intl": true
+    },
+    {
+      "name": "TotalEnergies",
+      "type": "avature",
+      "params": {
+        "base": "https://jobs.totalenergies.com/fr_FR/careers"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40"
+    },
+    {
+      "name": "Air Liquide",
+      "type": "workday",
+      "params": {
+        "host": "airliquidehr.wd3.myworkdayjobs.com",
+        "tenant": "airliquidehr",
+        "site": "AirLiquideExternalCareer"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40"
+    },
+    {
+      "name": "Michelin",
+      "type": "workday",
+      "params": {
+        "host": "michelinhr.wd3.myworkdayjobs.com",
+        "tenant": "michelinhr",
+        "site": "Michelin"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40"
+    },
+    {
+      "name": "Kering",
+      "type": "workday",
+      "params": {
+        "host": "kering.wd3.myworkdayjobs.com",
+        "tenant": "kering",
+        "site": "Kering"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40"
+    },
+    {
+      "name": "Pernod Ricard",
+      "type": "workday",
+      "params": {
+        "host": "pernodricard.wd3.myworkdayjobs.com",
+        "tenant": "pernodricard",
+        "site": "pernod-ricard"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40"
+    },
+    {
+      "name": "Eurofins Scientific",
+      "type": "smartrecruiters",
+      "params": {
+        "company": "Eurofins"
+      },
+      "tier": "C",
+      "note": "CAC 40"
+    },
+    {
+      "name": "Saint-Gobain",
+      "type": "smartrecruiters",
+      "params": {
+        "company": "SaintGobain"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 (une partie des offres seulement : le site principal bloque les robots)"
+    },
+    {
+      "name": "Accor",
+      "type": "smartrecruiters",
+      "params": {
+        "company": "AccorHotel"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40"
+    },
+    {
+      "name": "BCE (Banque centrale européenne)",
+      "type": "avature",
+      "params": {
+        "base": "https://talent.ecb.europa.eu/careers",
+        "queries": [
+          "traineeship",
+          "trainee data",
+          "statistics",
+          "data science",
+          "machine learning",
+          "forecasting"
+        ]
+      },
+      "tier": "A",
+      "note": "Institution · salaires très élevés et exonérés d'impôt national",
+      "high_pay": true
+    },
+    {
+      "name": "CERN",
+      "type": "smartrecruiters",
+      "params": {
+        "company": "CERN"
+      },
+      "tier": "A",
+      "note": "Institution · Genève",
+      "high_pay": true
+    },
+    {
+      "name": "OCDE",
+      "type": "smartrecruiters",
+      "params": {
+        "company": "OECD"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Institution · Paris",
+      "high_pay": true
+    },
+    {
+      "name": "EMBL",
+      "type": "workday",
+      "params": {
+        "host": "embl.wd103.myworkdayjobs.com",
+        "tenant": "embl",
+        "site": "EMBL"
+      },
+      "tier": "B",
+      "note": "Institution · biologie computationnelle",
+      "high_pay": true
+    },
+    {
+      "name": "Gladia",
+      "type": "ashby",
+      "params": {
+        "token": "gladia"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true,
+      "note": "IA vocale"
+    },
+    {
+      "name": "Doctrine",
+      "type": "lever",
+      "params": {
+        "token": "doctrine"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true,
+      "note": "IA juridique"
+    },
+    {
+      "name": "Inato",
+      "type": "ashby",
+      "params": {
+        "token": "inato"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "startup": true,
+      "note": "IA essais cliniques"
+    },
+    {
+      "name": "Voodoo",
+      "type": "ashby",
+      "params": {
+        "token": "voodoo"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true,
+      "note": "Jeux mobiles, ML"
+    },
+    {
+      "name": "Back Market",
+      "type": "ashby",
+      "params": {
+        "token": "backmarket"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true,
+      "note": "E-commerce, recommandation / pricing"
+    },
+    {
+      "name": "Vestiaire Collective",
+      "type": "lever",
+      "params": {
+        "token": "vestiairecollective"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true,
+      "note": "E-commerce, recommandation"
+    },
+    {
+      "name": "BlaBlaCar",
+      "type": "lever",
+      "params": {
+        "token": "blablacar"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true,
+      "note": "Mobilité, data"
+    },
+    {
+      "name": "Pennylane",
+      "type": "ashby",
+      "params": {
+        "token": "pennylane"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true,
+      "note": "Fintech SaaS"
+    },
+    {
+      "name": "Sorare",
+      "type": "ashby",
+      "params": {
+        "token": "sorare"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Malt",
+      "type": "lever",
+      "params": {
+        "token": "malt"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "startup": true,
+      "note": "Marketplace, matching"
+    },
+    {
+      "name": "Agicap",
+      "type": "lever",
+      "params": {
+        "token": "agicap"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "startup": true,
+      "note": "Prévision de trésorerie"
+    },
+    {
+      "name": "Brevo",
+      "type": "lever",
+      "params": {
+        "token": "brevo"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Ogury",
+      "type": "lever",
+      "params": {
+        "token": "ogury"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "startup": true,
+      "note": "Ad-tech, ML"
+    },
+    {
+      "name": "Shippeo",
+      "type": "smartrecruiters",
+      "params": {
+        "company": "shippeo"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "startup": true,
+      "note": "Supply chain, prédiction d'ETA"
+    },
+    {
+      "name": "PayFit",
+      "type": "rss",
+      "params": {
+        "url": "https://payfit.teamtailor.com/jobs.rss",
+        "location": "Paris, France"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "Botify",
+      "type": "rss",
+      "params": {
+        "url": "https://botify.teamtailor.com/jobs.rss",
+        "location": "Paris, France"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "startup": true
+    },
+    {
+      "name": "MyTraffic",
+      "type": "rss",
+      "params": {
+        "url": "https://mytraffic.teamtailor.com/jobs.rss",
+        "location": "Paris, France"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "startup": true,
+      "note": "Données de géolocalisation"
+    },
+    {
+      "name": "Cradle",
+      "type": "ashby",
+      "params": {
+        "token": "cradlebio"
+      },
+      "tier": "B",
+      "startup": true,
+      "note": "IA pour la biologie · Amsterdam / Zurich"
+    },
+    {
+      "name": "Parloa",
+      "type": "greenhouse",
+      "params": {
+        "token": "parloa"
+      },
+      "tier": "B",
+      "startup": true,
+      "note": "IA vocale · Berlin"
+    },
+    {
+      "name": "DeepJudge",
+      "type": "ashby",
+      "params": {
+        "token": "deepjudge"
+      },
+      "tier": "B",
+      "startup": true,
+      "note": "IA juridique · Zurich"
+    },
+    {
+      "name": "Dexory",
+      "type": "greenhouse",
+      "params": {
+        "token": "dexory"
+      },
+      "tier": "B",
+      "startup": true,
+      "note": "Robotique / vision · Royaume-Uni"
+    },
+    {
+      "name": "Deezer",
+      "type": "rss",
+      "params": {
+        "url": "https://deezer.teamtailor.com/jobs.rss",
+        "location": "Paris, France"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Streaming musical, recommandation"
+    },
+    {
+      "name": "Dailymotion",
+      "type": "smartrecruiters",
+      "params": {
+        "company": "dailymotion"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Vidéo, recommandation"
+    },
+    {
+      "name": "Artefact",
+      "type": "greenhouse",
+      "params": {
+        "token": "artefact"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "Conseil data & IA"
+    },
+    {
+      "name": "Scaleway",
+      "type": "lever",
+      "params": {
+        "token": "scaleway"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "Cloud et infrastructure IA"
+    },
+    {
+      "name": "Banque de France",
+      "type": "workday",
+      "params": {
+        "host": "bdf.wd103.myworkdayjobs.com",
+        "tenant": "bdf",
+        "site": "recrutement-banque-de-france"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Statistiques, data science"
+    },
+    {
+      "name": "Accenture",
+      "type": "workday",
+      "params": {
+        "host": "accenture.wd103.myworkdayjobs.com",
+        "tenant": "accenture",
+        "site": "AccentureCareers"
+      },
+      "tier": "C",
+      "note": "Conseil data & IA"
+    },
+    {
+      "name": "Sony (Sony AI)",
+      "type": "workday",
+      "params": {
+        "host": "sonyglobal.wd1.myworkdayjobs.com",
+        "tenant": "sonyglobal",
+        "site": "SonyGlobalCareers"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Uber",
+      "type": "oracle",
+      "params": {
+        "host": "iaziqy.fa.ocs.oraclecloud.com",
+        "site": "UberCareers"
+      },
+      "tier": "A",
+      "note": "Amsterdam"
+    },
+    {
+      "name": "Orange",
+      "type": "phenom",
+      "params": {
+        "host": "orange.jobs",
+        "lang": "fr_fr",
+        "country": "fr",
+        "job_url": "https://orange.jobs/fr/fr/job/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40"
+    },
+    {
+      "name": "Allianz",
+      "type": "phenom",
+      "params": {
+        "host": "careers.allianz.com",
+        "lang": "en_global",
+        "country": "global",
+        "job_url": "https://careers.allianz.com/global/en/job/"
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Snowflake",
+      "type": "phenom",
+      "params": {
+        "host": "careers.snowflake.com",
+        "lang": "en_us",
+        "country": "us",
+        "job_url": "https://careers.snowflake.com/us/en/job/"
+      },
+      "tier": "A"
+    },
+    {
+      "name": "Siemens",
+      "type": "avature",
+      "params": {
+        "base": "https://jobs.siemens.com/fr_FR/externaljobs",
+        "queries": [
+          "data scientist intern",
+          "machine learning intern",
+          "AI internship",
+          "stage data",
+          "praktikum KI"
+        ]
+      },
+      "tier": "B"
+    },
+    {
+      "name": "Fonds Accel (portefeuille)",
+      "type": "getro",
+      "params": {
+        "board": "https://jobs.accel.com"
+      },
+      "tier": "B",
+      "startup": true,
+      "note": "Toutes les startups financées par Accel"
+    },
+    {
+      "name": "Fonds Point Nine (portefeuille)",
+      "type": "getro",
+      "params": {
+        "board": "https://jobs.pointnine.com"
+      },
+      "tier": "B",
+      "startup": true,
+      "note": "Toutes les startups financées par Point Nine"
+    },
+    {
+      "name": "Fonds HV Capital (portefeuille)",
+      "type": "getro",
+      "params": {
+        "board": "https://jobs.hvcapital.com"
+      },
+      "tier": "B",
+      "startup": true,
+      "note": "Toutes les startups financées par HV Capital"
+    },
+    {
+      "name": "Fonds Headline (portefeuille)",
+      "type": "getro",
+      "params": {
+        "board": "https://jobs.headline.com"
+      },
+      "tier": "B",
+      "startup": true,
+      "note": "Toutes les startups financées par Headline"
+    },
+    {
+      "name": "ArcelorMittal",
+      "type": "link",
+      "params": {
+        "url": "https://france.arcelormittal.com/nous-rejoindre/"
+      },
+      "tier": "C",
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "AXA",
+      "type": "link",
+      "params": {
+        "url": "https://careers.axa.com/careers-home/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · iCIMS, pas d'API publique"
+    },
+    {
+      "name": "BNP Paribas",
+      "type": "link",
+      "params": {
+        "url": "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · site protégé contre les robots"
+    },
+    {
+      "name": "Bouygues",
+      "type": "link",
+      "params": {
+        "url": "https://www.bouygues.com/carrieres/"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · site protégé contre les robots"
+    },
+    {
+      "name": "Bureau Veritas",
+      "type": "successfactors",
+      "params": {
+        "base": "https://careers.bureauveritas.com",
+        "locale": "fr_FR"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · SuccessFactors",
+      "remplace": {
+        "type": "link",
+        "params": {
+          "url": "https://careers.bureauveritas.com/search/?q=stage&locale=fr_FR"
+        }
+      }
+    },
+    {
+      "name": "Capgemini",
+      "type": "link",
+      "params": {
+        "url": "https://www.capgemini.com/fr-fr/carrieres/rejoignez-nous/nos-offres-demploi/"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "Carrefour",
+      "type": "link",
+      "params": {
+        "url": "https://recrute.carrefour.fr/"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · site protégé contre les robots"
+    },
+    {
+      "name": "Crédit Agricole",
+      "type": "link",
+      "params": {
+        "url": "https://groupecreditagricole.jobs/fr/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · Talentsoft, pas d'API publique"
+    },
+    {
+      "name": "Danone",
+      "type": "link",
+      "params": {
+        "url": "https://careers.danone.com/en-global/home.html"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "Dassault Systèmes",
+      "type": "dassault",
+      "params": {},
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · recherche publique de 3ds.com",
+      "remplace": {
+        "type": "link",
+        "params": {
+          "url": "https://www.3ds.com/careers/jobs"
+        }
+      }
+    },
+    {
+      "name": "Edenred",
+      "type": "link",
+      "params": {
+        "url": "https://www.linkedin.com/jobs/search/?keywords=Edenred%20stage&location=France"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · recherche LinkedIn (site carrières introuvable)"
+    },
+    {
+      "name": "Engie",
+      "type": "successfactors",
+      "params": {
+        "base": "https://jobs.engie.com",
+        "locale": "fr_FR"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · SuccessFactors",
+      "remplace": {
+        "type": "link",
+        "params": {
+          "url": "https://jobs.engie.com/search/?q=stage&locale=fr_FR"
+        }
+      }
+    },
+    {
+      "name": "EssilorLuxottica",
+      "type": "link",
+      "params": {
+        "url": "https://www.essilorluxottica.com/en/careers/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · iCIMS, pas d'API publique"
+    },
+    {
+      "name": "Hermès",
+      "type": "link",
+      "params": {
+        "url": "https://www.hermes.com/fr/fr/content/contact-us/careers/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · site protégé contre les robots"
+    },
+    {
+      "name": "Legrand",
+      "type": "link",
+      "params": {
+        "url": "https://www.legrand.com/en/working-at-legrand"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "L'Oréal",
+      "type": "link",
+      "params": {
+        "url": "https://careers.loreal.com/fr_FR/jobs/SearchJobs/?search=data"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · Avature sans recherche exploitable"
+    },
+    {
+      "name": "LVMH",
+      "type": "link",
+      "params": {
+        "url": "https://www.lvmh.com/join-us/our-job-offers"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "Publicis Groupe",
+      "type": "link",
+      "params": {
+        "url": "https://careers.publicisgroupe.com/jobs"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · iCIMS, pas d'API publique"
+    },
+    {
+      "name": "Renault Group",
+      "type": "link",
+      "params": {
+        "url": "https://www.renaultgroup.com/carrieres-renault/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "Safran",
+      "type": "link",
+      "params": {
+        "url": "https://www.safran-group.com/fr/offres"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · site protégé contre les robots"
+    },
+    {
+      "name": "Schneider Electric",
+      "type": "link",
+      "params": {
+        "url": "https://careers.se.com/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · iCIMS / Taleo, pas d'API publique"
+    },
+    {
+      "name": "Société Générale",
+      "type": "link",
+      "params": {
+        "url": "https://careers.societegenerale.com/en/search"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · Taleo, pas d'API publique"
+    },
+    {
+      "name": "Stellantis",
+      "type": "link",
+      "params": {
+        "url": "https://careers.stellantis.com/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "STMicroelectronics",
+      "type": "link",
+      "params": {
+        "url": "https://www.st.com/content/st_com/en/careers.html"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "CAC 40 · site protégé contre les robots"
+    },
+    {
+      "name": "Teleperformance",
+      "type": "link",
+      "params": {
+        "url": "https://www.tp.com/en-us/careers/job-opportunities/"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "Unibail-Rodamco-Westfield",
+      "type": "link",
+      "params": {
+        "url": "https://www.urw.com/join-us"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "Veolia",
+      "type": "link",
+      "params": {
+        "url": "https://www.veolia.com/fr/carrieres"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "Vinci",
+      "type": "link",
+      "params": {
+        "url": "https://jobs.vinci.com/en"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "CAC 40 · pas d'API publique"
+    },
+    {
+      "name": "Google / Google DeepMind",
+      "type": "google",
+      "params": {},
+      "tier": "S",
+      "note": "Google Careers, filtre « stages et alternances », première page de chaque recherche",
+      "high_pay": true,
+      "remplace": {
+        "type": "link",
+        "params": {
+          "url": "https://www.google.com/about/careers/applications/jobs/results?q=intern%20machine%20learning&target_level=INTERN_AND_APPRENTICE"
+        }
+      }
+    },
+    {
+      "name": "Meta",
+      "type": "link",
+      "params": {
+        "url": "https://www.metacareers.com/jobs?q=machine%20learning%20intern"
+      },
+      "tier": "S",
+      "note": "Pas d'API publique : vérifier à la main",
+      "high_pay": true
+    },
+    {
+      "name": "Apple",
+      "type": "link",
+      "params": {
+        "url": "https://jobs.apple.com/en-us/search?search=machine%20learning%20intern&team=internships-STDNT-INTRN"
+      },
+      "tier": "S",
+      "note": "Pas d'API publique : vérifier à la main"
+    },
+    {
+      "name": "Microsoft",
+      "type": "eightfold",
+      "params": {
+        "host": "apply.careers.microsoft.com",
+        "domain": "microsoft.com"
+      },
+      "tier": "A",
+      "note": "Eightfold (apply.careers.microsoft.com)",
+      "remplace": {
+        "type": "link",
+        "params": {
+          "url": "https://jobs.careers.microsoft.com/global/en/search?q=machine%20learning%20intern"
+        }
+      }
+    },
+    {
+      "name": "BCG X",
+      "type": "link",
+      "params": {
+        "url": "https://careers.bcg.com/global/en/search-results?keywords=AI%20intern"
+      },
+      "tier": "A",
+      "note": "Pas d'API publique : vérifier à la main",
+      "high_pay": true
+    },
+    {
+      "name": "Naver Labs Europe (stages)",
+      "type": "link",
+      "params": {
+        "url": "https://europe.naverlabs.com/careers/internships/"
+      },
+      "tier": "A",
+      "note": "Labo de recherche à Grenoble"
+    },
+    {
+      "name": "Inria (offres)",
+      "type": "link",
+      "params": {
+        "url": "https://jobs.inria.fr/public/classic/fr/offres"
+      },
+      "tier": "B",
+      "note": "Stages de recherche"
+    },
+    {
+      "name": "LinkedIn : alerte stages ML UE",
+      "type": "link",
+      "params": {
+        "url": "https://www.linkedin.com/jobs/search/?keywords=machine%20learning%20intern&location=European%20Union&geoId=91000000&f_E=1&f_TPR=r604800"
+      },
+      "tier": "B",
+      "note": "Recherche LinkedIn des 7 derniers jours (ouvre ton compte)"
+    },
+    {
+      "name": "Welcome to the Jungle",
+      "type": "wttj",
+      "params": {},
+      "tier": "B",
+      "note": "Agrégateur FR · stages en Europe (FR, BE, CH, LU, UK, DE, NL, ES) via son moteur de recherche public",
+      "remplace": {
+        "type": "link",
+        "params": {
+          "url": "https://www.welcometothejungle.com/fr/jobs?query=stage%20machine%20learning"
+        }
+      }
+    },
+    {
+      "name": "JobTeaser",
+      "type": "link",
+      "params": {
+        "url": "https://www.jobteaser.com/fr/job-offers?q=machine%20learning"
+      },
+      "tier": "B",
+      "note": "Utilise l'espace JobTeaser de l'ENSAI"
+    },
+    {
+      "name": "BRI (Banque des règlements internationaux)",
+      "type": "link",
+      "params": {
+        "url": "https://www.bis.org/about/careers/vacancies"
+      },
+      "tier": "A",
+      "note": "Institution · Bâle · pas d'API publique",
+      "high_pay": true
+    },
+    {
+      "name": "BEI (Banque européenne d'investissement)",
+      "type": "link",
+      "params": {
+        "url": "https://www.eib.org/en/about/careers/index"
+      },
+      "tier": "A",
+      "note": "Institution · Luxembourg · pas d'API publique",
+      "high_pay": true
+    },
+    {
+      "name": "MES (Mécanisme européen de stabilité)",
+      "type": "link",
+      "params": {
+        "url": "https://www.esm.europa.eu/careers"
+      },
+      "tier": "A",
+      "note": "Institution · Luxembourg · pas d'API publique",
+      "high_pay": true
+    },
+    {
+      "name": "BERD",
+      "type": "link",
+      "params": {
+        "url": "https://www.ebrd.com/home/work-with-us/ebrd-careers.html"
+      },
+      "tier": "B",
+      "note": "Institution · Londres · pas d'API publique",
+      "high_pay": true
+    },
+    {
+      "name": "ESA (Agence spatiale européenne)",
+      "type": "successfactors",
+      "params": {
+        "base": "https://jobs.esa.int",
+        "locale": "en_GB"
+      },
+      "tier": "A",
+      "note": "Institution · stages et Young Graduate Trainee · SuccessFactors",
+      "high_pay": true,
+      "remplace": {
+        "type": "link",
+        "params": {
+          "url": "https://jobs.esa.int/"
+        }
+      }
+    },
+    {
+      "name": "OEB (Office européen des brevets)",
+      "type": "link",
+      "params": {
+        "url": "https://jobs.epo.org/"
+      },
+      "tier": "B",
+      "note": "Institution · Munich · SuccessFactors",
+      "high_pay": true
+    },
+    {
+      "name": "ECMWF (météo, ML)",
+      "type": "link",
+      "params": {
+        "url": "https://www.ecmwf.int/en/about/jobs"
+      },
+      "tier": "B",
+      "note": "Institution · Bonn / Reading · fort en ML météo",
+      "high_pay": true
+    },
+    {
+      "name": "EUMETSAT",
+      "type": "link",
+      "params": {
+        "url": "https://www.eumetsat.int/work-us/careers-eumetsat"
+      },
+      "tier": "B",
+      "note": "Institution · Darmstadt",
+      "high_pay": true
+    },
+    {
+      "name": "Commission européenne (stages Blue Book)",
+      "type": "link",
+      "params": {
+        "url": "https://traineeships.ec.europa.eu/"
+      },
+      "tier": "B",
+      "note": "Institution · Bruxelles",
+      "high_pay": true
+    },
+    {
+      "name": "FMI",
+      "type": "link",
+      "params": {
+        "url": "https://www.imf.org/en/About/Recruitment"
+      },
+      "tier": "A",
+      "note": "Institution · Washington",
+      "high_pay": true
+    },
+    {
+      "name": "Banque mondiale",
+      "type": "link",
+      "params": {
+        "url": "https://www.worldbank.org/en/about/careers"
+      },
+      "tier": "A",
+      "note": "Institution · Washington",
+      "high_pay": true
+    },
+    {
+      "name": "McKinsey (QuantumBlack)",
+      "type": "link",
+      "params": {
+        "url": "https://www.mckinsey.com/careers/search-jobs"
+      },
+      "tier": "A",
+      "note": "Conseil · pas d'API publique",
+      "high_pay": true
+    },
+    {
+      "name": "Bain & Company",
+      "type": "link",
+      "params": {
+        "url": "https://www.bain.com/careers/find-a-role/"
+      },
+      "tier": "A",
+      "note": "Conseil · pas d'API publique",
+      "high_pay": true
+    },
+    {
+      "name": "EDF",
+      "type": "link",
+      "params": {
+        "url": "https://www.edf.fr/edf-recrute/rejoignez-nous/voir-les-offres/nos-offres"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Data science, R&D · Talentsoft"
+    },
+    {
+      "name": "SNCF",
+      "type": "link",
+      "params": {
+        "url": "https://emploi.sncf.com/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Data & IA"
+    },
+    {
+      "name": "INSEE",
+      "type": "link",
+      "params": {
+        "url": "https://www.insee.fr/fr/information/1302181"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Statistique publique"
+    },
+    {
+      "name": "CNES",
+      "type": "link",
+      "params": {
+        "url": "https://recrutement.cnes.fr/fr/annonces"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Spatial, traitement d'images"
+    },
+    {
+      "name": "Météo-France",
+      "type": "link",
+      "params": {
+        "url": "https://www.linkedin.com/jobs/search/?keywords=M%C3%A9t%C3%A9o-France%20stage&location=France"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Recherche LinkedIn (site carrières introuvable)"
+    },
+    {
+      "name": "Air France-KLM",
+      "type": "link",
+      "params": {
+        "url": "https://recrutement.airfrance.com/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Data science, recherche opérationnelle"
+    },
+    {
+      "name": "Decathlon",
+      "type": "link",
+      "params": {
+        "url": "https://joinus.decathlon.fr/fr/annonces"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "note": "Data & IA"
+    },
+    {
+      "name": "La Poste",
+      "type": "link",
+      "params": {
+        "url": "https://www.laposterecrute.fr/"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": ""
+    },
+    {
+      "name": "BPCE",
+      "type": "link",
+      "params": {
+        "url": "https://www.linkedin.com/jobs/search/?keywords=BPCE%20stage%20data&location=France"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "Recherche LinkedIn (site carrières introuvable)"
+    },
+    {
+      "name": "Covéa",
+      "type": "link",
+      "params": {
+        "url": "https://recrutement.covea.com/"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": ""
+    },
+    {
+      "name": "Quantmetry (Capgemini Invent)",
+      "type": "link",
+      "params": {
+        "url": "https://quantmetry.welcomekit.co/"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "Conseil IA"
+    },
+    {
+      "name": "Deloitte",
+      "type": "link",
+      "params": {
+        "url": "https://www.deloitte.com/fr/fr/careers.html"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "Pôle IA & data"
+    },
+    {
+      "name": "PwC",
+      "type": "link",
+      "params": {
+        "url": "https://www.pwc.fr/fr/carrieres.html"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "Pôle IA & data"
+    },
+    {
+      "name": "EY",
+      "type": "link",
+      "params": {
+        "url": "https://careers.ey.com/"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "Pôle IA & data"
+    },
+    {
+      "name": "KPMG",
+      "type": "link",
+      "params": {
+        "url": "https://kpmg.com/fr/fr/carrieres.html"
+      },
+      "tier": "C",
+      "french_intl": true,
+      "note": "Pôle IA & data"
+    },
+    {
+      "name": "SAP",
+      "type": "link",
+      "params": {
+        "url": "https://jobs.sap.com/search/?q=intern"
+      },
+      "tier": "A",
+      "note": "SAP AI Research (Berlin, Paris)"
+    },
+    {
+      "name": "Huawei (labos de recherche)",
+      "type": "link",
+      "params": {
+        "url": "https://career.huawei.com/reccampportal/portal5/index.html"
+      },
+      "tier": "B",
+      "note": "Munich, Helsinki, Dublin, Paris"
+    },
+    {
+      "name": "IBM Research",
+      "type": "ibm",
+      "params": {},
+      "tier": "B",
+      "note": "API de recherche d'IBM, niveau « Internship » · Zurich, Paris",
+      "remplace": {
+        "type": "link",
+        "params": {
+          "url": "https://www.ibm.com/careers/search?q=intern"
+        }
+      }
+    },
+    {
+      "name": "ASML",
+      "type": "link",
+      "params": {
+        "url": "https://www.asml.com/en/careers/find-your-job"
+      },
+      "tier": "A",
+      "note": "Veldhoven"
+    },
+    {
+      "name": "Booking.com",
+      "type": "jibeapply",
+      "params": {
+        "origin": "https://jobs.booking.com",
+        "job_path": "/booking/jobs/"
+      },
+      "tier": "A",
+      "note": "Amsterdam · Jibe (iCIMS)",
+      "remplace": {
+        "type": "link",
+        "params": {
+          "url": "https://jobs.booking.com/booking/jobs"
+        }
+      }
+    },
+    {
+      "name": "Zalando",
+      "type": "link",
+      "params": {
+        "url": "https://jobs.zalando.com/en/jobs"
+      },
+      "tier": "B",
+      "note": "Berlin"
+    },
+    {
+      "name": "Station F (job board)",
+      "type": "link",
+      "params": {
+        "url": "https://jobs.stationf.co/"
+      },
+      "tier": "B",
+      "french_intl": true,
+      "startup": true,
+      "note": "Offres des startups de Station F"
+    },
+    {
+      "name": "The Hub (startups nordiques et européennes)",
+      "type": "thehub",
+      "params": {
+        "country": "EU"
+      },
+      "tier": "B",
+      "startup": true,
+      "note": "Job board des startups (Danemark, Suède, Norvège, Finlande, Europe)"
+    },
+    {
+      "name": "Arbeitnow (UE / Allemagne)",
+      "type": "arbeitnow",
+      "params": {},
+      "tier": "C",
+      "enabled": false,
+      "note": "Job board européen, surtout germanophone · désactivé par défaut"
+    }
+  ]
+}
